@@ -6,7 +6,7 @@ function App() {
   const [resultImage, setResultImage] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [apiUrl, setApiUrl] = useState('http://127.0.0.1:8000');
+  const [apiUrl, setApiUrl] = useState('https://ai-powered-microscopic-cell-anomaly-fld0.onrender.com');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleImageSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
