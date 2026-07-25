@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+numpy
+Pillow
+opencv-python
+matplotlib
+scikit-image
+tensorflow
+keras
+scipy
+python-multipart
